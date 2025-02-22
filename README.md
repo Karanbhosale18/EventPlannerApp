@@ -15,4 +15,4 @@
  layman to plan an event in a hassle-free manner. This application will assist him/her in
  planning a successful and fun event
 
-                                                                                                  *** The App Is In Development ***
+                                                    *** The App Is In Development ***
