@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:textSize="20dp"
+    android:text="Admin Dashboard"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:text="The App is In Development"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/blue"
+        ></TextView>
+</LinearLayout>

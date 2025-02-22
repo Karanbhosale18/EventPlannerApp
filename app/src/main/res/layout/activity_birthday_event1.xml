@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:background="@drawable/planblueimage"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="VENUES"
+    android:layout_marginTop="30dp"
+    android:textSize="20dp"
+     android:textStyle="bold"
+    android:gravity="center"
+    android:textColor="@color/black"
+    ></TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:overScrollMode="never"
+        android:layout_marginBottom="0dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:background="@drawable/planblueimage"
+            android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2"
+            android:scaleType="centerInside"
+            android:src="@drawable/shreevitthalmangalam" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="NAME :"
+                android:paddingLeft="180dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="30dp"
+                android:text="  Shree Vitthal Mangalam   "
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:text="DISCOUNT:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="70dp"
+                android:text="                  5.00% OFF"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="90dp"
+                android:text="PRICE:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="110dp"
+                android:text="         ₹ 15,999 (PER HR)"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/baseline_arrow_forward_ios_24"></ImageView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/planblueimage">
+
+            <ImageView
+
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:src="@drawable/magnuscavernsresort" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="NAME :"
+                android:paddingLeft="180dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="30dp"
+                android:text="  Magnus Caverns Resort"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:text="DISCOUNT:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="70dp"
+                android:text="                  7.50% OFF"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="90dp"
+                android:text="PRICE:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="110dp"
+                android:text="         ₹ 14599 (PER HR)"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/baseline_arrow_forward_ios_24"></ImageView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/planblueimage">
+
+            <ImageView
+
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:src="@drawable/grandlegacy" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="NAME :"
+                android:paddingLeft="180dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="30dp"
+                android:text="       Grand Legacy"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:text="DISCOUNT:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="70dp"
+                android:text="                  5.00% OFF"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="90dp"
+                android:text="PRICE:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="110dp"
+                android:text="         ₹ 17499 (PER HR)"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/baseline_arrow_forward_ios_24"></ImageView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/planblueimage">
+
+            <ImageView
+
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:src="@drawable/bluecountryresort" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="NAME :"
+                android:paddingLeft="180dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="30dp"
+                android:text="       Blue Country Resort"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:text="DISCOUNT:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="70dp"
+                android:text="                  2.00% OFF"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="90dp"
+                android:text="PRICE:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="110dp"
+                android:text="         ₹ 11500 (PER HR)"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/item4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="130dp"
+                android:src="@drawable/baseline_arrow_forward_ios_24"></ImageView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/planblueimage">
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:src="@drawable/fernresidency" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="NAME :"
+                android:paddingLeft="180dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="30dp"
+                android:text="           Fern Residency"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:text="DISCOUNT:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="70dp"
+                android:text="                  33.50% OFF"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="90dp"
+                android:text="PRICE:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="110dp"
+                android:text="         ₹ 9999 (PER HR)"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+            <ImageView
+                android:id="@+id/item6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="120dp"
+                android:src="@drawable/baseline_arrow_forward_ios_24"></ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/planblueimage">
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:src="@drawable/dhanhills" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="NAME :"
+                android:paddingLeft="180dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="30dp"
+                android:text="       Dhan Hills"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:text="DISCOUNT:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="70dp"
+                android:text="                  1.50% OFF"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="90dp"
+                android:text="PRICE:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="110dp"
+                android:text="         ₹ 16599 (PER HR)"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+            <ImageView
+                android:id="@+id/item5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="120dp"
+                android:src="@drawable/baseline_arrow_forward_ios_24"></ImageView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/planblueimage">
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:src="@drawable/fountainhotel" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="NAME :"
+                android:paddingLeft="180dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="30dp"
+                android:text="           Fountain Hotel"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:text="DISCOUNT:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="70dp"
+                android:text="                  23.50% OFF"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="90dp"
+                android:text="PRICE:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="110dp"
+                android:text="         ₹ 11999 (PER HR)"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+            <ImageView
+                android:id="@+id/item7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="120dp"
+                android:src="@drawable/baseline_arrow_forward_ios_24"></ImageView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/planblueimage">
+
+            <ImageView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="2"
+                android:scaleType="centerInside"
+                android:src="@drawable/cliffresortandspa" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:text="NAME :"
+                android:paddingLeft="180dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="30dp"
+                android:text="  Cliff Resort And Spa"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="50dp"
+                android:text="DISCOUNT:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="70dp"
+                android:text="                  3.00% OFF"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="90dp"
+                android:text="PRICE:     "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="180dp"
+                android:layout_marginTop="110dp"
+                android:text="         ₹ 20000 (PER HR)"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+            <ImageView
+                android:id="@+id/item8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="130dp"
+                android:layout_marginBottom="50dp"
+                android:src="@drawable/baseline_arrow_forward_ios_24"></ImageView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

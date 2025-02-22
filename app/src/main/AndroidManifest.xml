@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Event Planner"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EventPlanner"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".admin_loginn"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".stud_teacher"
+            android:exported="false" />
+        <activity
+            android:name=".aboutapk"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".contactus"
+            android:exported="false" />
+        <activity
+            android:name=".staff_4"
+            android:exported="false" />
+        <activity
+            android:name=".staff_3"
+            android:exported="false" />
+        <activity
+            android:name=".staff_2"
+            android:exported="false" />
+        <activity
+            android:name=".staff_1"
+            android:exported="false" />
+        <activity
+            android:name=".cake_8"
+            android:exported="false" />
+        <activity
+            android:name=".cake_7"
+            android:exported="false" />
+        <activity
+            android:name=".cake_6"
+            android:exported="false" />
+        <activity
+            android:name=".cake_5"
+            android:exported="false" />
+        <activity
+            android:name=".cake_4"
+            android:exported="false" />
+        <activity
+            android:name=".cake_3"
+            android:exported="false" />
+        <activity
+            android:name=".cake_2"
+            android:exported="false" />
+        <activity
+            android:name=".cake_1"
+            android:exported="false" />
+        <activity
+            android:name=".food_8"
+            android:exported="false" />
+        <activity
+            android:name=".food_7"
+            android:exported="false" />
+        <activity
+            android:name=".food_6"
+            android:exported="false" />
+        <activity
+            android:name=".food_5"
+            android:exported="false" />
+        <activity
+            android:name=".food_4"
+            android:exported="false" />
+        <activity
+            android:name=".food_3"
+            android:exported="false" />
+        <activity
+            android:name=".food_2"
+            android:exported="false" />
+        <activity
+            android:name=".food_1"
+            android:exported="false" />
+        <activity
+            android:name=".venue_8"
+            android:exported="false" />
+        <activity
+            android:name=".venue_7"
+            android:exported="false" />
+        <activity
+            android:name=".venue_6"
+            android:exported="false" />
+        <activity
+            android:name=".venue_5"
+            android:exported="false" />
+        <activity
+            android:name=".venue_4"
+            android:exported="false" />
+        <activity
+            android:name=".venue_3"
+            android:exported="false" />
+        <activity
+            android:name=".venue_2"
+            android:exported="false" />
+        <activity
+            android:name=".venue_1"
+            android:exported="false" />
+        <activity
+            android:name=".Birthday_Event_4"
+            android:exported="false" />
+        <activity
+            android:name=".Birthday_Event_3"
+            android:exported="false" />
+        <activity
+            android:name=".Birthday_Event_2"
+            android:exported="false" />
+        <activity
+            android:name=".Birthday_Event_1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".Birthday_Event"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
