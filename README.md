@@ -14,3 +14,5 @@
  protocols. In this paper we present an android mobile phone application to make it easier for a
  layman to plan an event in a hassle-free manner. This application will assist him/her in
  planning a successful and fun event
+
+                     *** The App Is In Development ***
